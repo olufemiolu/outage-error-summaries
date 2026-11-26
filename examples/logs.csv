@@ -1,0 +1,9 @@
+outage_id,timestamp,service,level,message
+OUT-1,2026-11-20T10:00:05Z,payments,ERROR,timeout calling ledger
+OUT-1,2026-11-20T10:00:01Z,auth,WARN,slow token refresh
+OUT-1,2026-11-20T10:00:03Z,auth,ERROR,token refresh failed
+OUT-1,2026-11-20T10:00:03Z,api,FATAL,worker crashed
+OUT-1,2026-11-20T10:00:07Z,payments,ERROR,timeout calling ledger
+OUT-1,2026-11-20T10:00:09Z,auth,ERROR,token refresh failed
+OUT-2,2026-11-21T08:30:00Z,search,INFO,reindex started
+OUT-2,2026-11-21T08:31:00Z,search,FATAL,index corrupted
