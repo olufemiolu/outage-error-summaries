@@ -1,0 +1,7 @@
+outage_id,city,service,error_count,first_error_timestamp
+OUT-01,Chicago,eta-routing,28,2026-08-17T18:02:11
+OUT-01,Chicago,dispatch-matching,46,2026-08-17T18:05:31
+OUT-01,Chicago,rider-app-gateway,24,2026-08-17T18:05:36
+OUT-01,Chicago,maps-geocode,11,2026-08-17T18:05:44
+OUT-01,Chicago,payment-auth,11,2026-08-17T18:05:51
+OUT-01,Chicago,rider-auth-session,11,2026-08-17T18:06:10
