@@ -12,7 +12,7 @@
 Within each outage, services are ordered by their **earliest ERROR or FATAL
 timestamp, oldest first**, with **ties broken alphabetically by service name**.
 
-Why _(rationale drafted by Claude; edit if yours differs)_: ordering by first
+Why ordering by first
 failure lists services in the order they started failing, so the top rows point
 toward where the outage began and how it spread (in OUT-01, `eta-routing` fails
 first at 18:02:11, and `dispatch-matching`'s first error at 18:05:31 is a timeout
