@@ -1,3 +1,3 @@
-from .core import ServiceSummary, LogRow, summarize
+from .core import LogRow, ServiceSummary, counted_entries, summarize
 
-__all__ = ["LogRow", "ServiceSummary", "summarize"]
+__all__ = ["LogRow", "ServiceSummary", "counted_entries", "summarize"]

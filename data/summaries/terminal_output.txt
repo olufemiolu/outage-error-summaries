@@ -1,0 +1,11 @@
+outage_id,service,total_count,error_count,fatal_count,first_error_at
+OUT-01,eta-routing,28,26,2,2026-08-17T18:02:11+00:00
+OUT-01,dispatch-matching,46,44,2,2026-08-17T18:05:31+00:00
+OUT-01,rider-app-gateway,24,24,0,2026-08-17T18:05:36+00:00
+OUT-01,maps-geocode,11,10,1,2026-08-17T18:05:44+00:00
+OUT-01,payment-auth,11,11,0,2026-08-17T18:05:51+00:00
+OUT-01,rider-auth-session,11,11,0,2026-08-17T18:06:10+00:00
+
+1 outage(s) found; wrote:
+  data/summaries/OUT-01.csv
+  data/summaries/OUT-01_entries.csv
